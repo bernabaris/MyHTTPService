@@ -1,0 +1,14 @@
+[Unit]
+Description=Simple HTTP Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/user/PycharmProjects/MyHTTPService/myapp.py
+Restart=always
+WorkingDirectory=/home/user/PycharmProjects/MyHTTPService
+User=user
+StandardOutput=append:/var/log/myapp.log
+StandardError=append:/var/log/myapp_error.log
+
+[Install]
+WantedBy=multi-user.target
