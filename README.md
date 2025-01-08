@@ -28,15 +28,15 @@ The systemd unit file to manage the HTTP server is in the [myapp.service](system
 
 
 
-## Task 3: Kubernetes Cluster Setup
+### Task 3: Kubernetes Cluster Setup
 
 
 
-## Task 4: Debugging and Troubleshooting
+### Task 4: Debugging and Troubleshooting
 
 
 
-## Task 5: Talos-Focused Configuration (Optional)
+### Task 5: Talos-Focused Configuration (Optional)
 
 
 
