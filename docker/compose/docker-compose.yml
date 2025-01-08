@@ -1,14 +1,14 @@
 version: '3'
 services:
   backend:
-    environment:
-      - PORT=5050
+    image: backend-service
     deploy:
       replicas: 2
     networks:
       - loadbalancing
 
   nginx:
+    image: nginx-service
     container_name: nginx
     ports:
       - "80:80"
