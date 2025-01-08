@@ -1,14 +1,44 @@
-# Task1: Simple HTTP Server Deployment with Systemd
+# Infrastructure Deployment and Management Assignment
+
+This assignment evaluates skills in deploying and managing infrastructure, troubleshooting, and applying best practices in a Linux-based, containerized, high-availability environment.
+
+## Table of Contents
+
+- [Task 1: Deploy a Systemd Service](#task-1-deploy-a-systemd-service)
+- [Task 2: Docker-Based Application Deployment](#task-2-docker-based-application-deployment)
+- [Task 3: Kubernetes Cluster Setup](#task-3-kubernetes-cluster-setup)
+- [Task 4: Debugging and Troubleshooting](#task-4-debugging-and-troubleshooting)
+- [Task 5: Talos-Focused Configuration (Optional)](#task-5-talos-focused-configuration-optional)
+
+---
+
+### Task 1: Deploy a Systemd Service
 
 This task demonstrates how to deploy and manage a simple HTTP server as a service on a Linux system using systemd.
 
-## Steps
+#### Steps
 
-### 1. Application Code
+##### 1. Application Code
 The application is a simple Python HTTP server. My code is in the [my.app](server/myapp.py) file.
 
-### 2. Systemd Unit File
-The systemd unit file to manage the HTTP server is in the [myapp.service](systemd/myapp.service) file. 
+##### 2. Systemd Unit File
+The systemd unit file to manage the HTTP server is in the [myapp.service](systemd/myapp.service) file.
+
+### Task 2: Docker-Based Application Deployment
+
+
+
+## Task 3: Kubernetes Cluster Setup
+
+
+
+## Task 4: Debugging and Troubleshooting
+
+
+
+## Task 5: Talos-Focused Configuration (Optional)
+
+
 
 
 ## Resources:
