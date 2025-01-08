@@ -1,3 +1,16 @@
+# Task1: Simple HTTP Server Deployment with Systemd
+
+This task demonstrates how to deploy and manage a simple HTTP server as a service on a Linux system using systemd.
+
+## Steps
+
+### 1. Application Code
+The application is a simple Python HTTP server. My code is in the [my.app](server/myapp.py) file.
+
+### 2. Systemd Unit File
+The systemd unit file to manage the HTTP server is in the [myapp.service](systemd/myapp.service) file. 
+
+
 ## Resources:
 - [https://www.moesif.com/blog/technical/api-development/Building-RESTful-API-with-Flask/]
 - [https://www.suse.com/support/kb/doc/?id=000019672]
