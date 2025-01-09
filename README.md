@@ -153,3 +153,4 @@ kubectl delete pod nginx
 - [https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises]
 - [https://kubernetes.io/releases/]
 - [https://medium.com/@shyamsandeep28/scheduling-pods-on-master-nodes-7e948f9cb02c]
+- [https://github.com/helm/examples.git]
