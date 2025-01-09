@@ -152,3 +152,4 @@ kubectl delete pod nginx
 - [https://hbayraktar.medium.com/how-to-install-kubernetes-cluster-on-ubuntu-22-04-step-by-step-guide-7dbf7e8f5f99]
 - [https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises]
 - [https://kubernetes.io/releases/]
+- [https://medium.com/@shyamsandeep28/scheduling-pods-on-master-nodes-7e948f9cb02c]
