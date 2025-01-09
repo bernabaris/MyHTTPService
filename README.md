@@ -26,10 +26,10 @@ The systemd unit file to manage the HTTP server is in the [myapp.service](system
 
 ### Task 2: Docker-Based Application Deployment
 
-This task demonstrates how to deploy a multi-container application using Docker. The application consists of two services: a backend service and a Nginx service, both built with Docker.
+This task demonstrates how to deploy a multi-container application using Docker. The application consists of two services: a http appp and a Nginx service, both built with Docker.
 The [bash](build.sh) script automates the process of building and containerizing the application.
 
-1. **Start the backend and Nginx services, use the following command**
+1. **Start the http app and Nginx services, use the following command**
 ```sh
 docker compose -f ./docker/compose/docker-compose.yml up -d
 ```

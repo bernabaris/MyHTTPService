@@ -1,7 +1,7 @@
 version: '3'
 services:
-  backend:
-    image: backend-service
+  http-app:
+    image: http-app:1.0.0
     deploy:
       replicas: 2
     networks:
@@ -15,7 +15,7 @@ services:
     networks:
       - loadbalancing
     depends_on:
-      - backend
+      - http-app
 
 networks:
   loadbalancing:
