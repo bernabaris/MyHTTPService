@@ -154,3 +154,4 @@ kubectl delete pod nginx
 - [https://kubernetes.io/releases/]
 - [https://medium.com/@shyamsandeep28/scheduling-pods-on-master-nodes-7e948f9cb02c]
 - [https://github.com/helm/examples.git]
+- [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/]
