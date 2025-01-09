@@ -116,6 +116,21 @@ kubectl apply -f calico.yaml
 ```sh
 kubectl get nodes
 ```
+9. **Deploy test application on cluster (master node)**
+```sh
+kubectl run nginx --image=nginx
+```
+
+10. **Check if my pod in the pending state**
+```sh
+kubectl describe pod nginx
+```
+
+11. **Allow scheduling of pods on Kubernetes master**
+```sh
+kubectl taint nodes --all  node-role.kubernetes.io/control-plane-
+```
+
 ### Task 4: Debugging and Troubleshooting
 
 
