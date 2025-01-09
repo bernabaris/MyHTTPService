@@ -135,6 +135,19 @@ kubectl taint nodes --all  node-role.kubernetes.io/control-plane-
 ```sh
 kubectl delete pod nginx
 ```
+13. **Install Helm**
+Download your [desired version](https://github.com/helm/helm/releases).
+```sh
+tar -zxvf helm-v3.0.0-linux-amd64.tar.gz
+```
+```sh
+mv linux-amd64/helm /usr/local/bin/helm
+```
+14. **To prevent port conflicts, docker compose down**
+```sh
+docker compose -f ./docker/compose/docker-compose.yml down
+```
+
 
 ### Task 4: Debugging and Troubleshooting
 
@@ -153,5 +166,6 @@ kubectl delete pod nginx
 - [https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises]
 - [https://kubernetes.io/releases/]
 - [https://medium.com/@shyamsandeep28/scheduling-pods-on-master-nodes-7e948f9cb02c]
+- [https://helm.sh/docs/intro/install/]
 - [https://github.com/helm/examples.git]
 - [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/]
