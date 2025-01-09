@@ -25,3 +25,9 @@ serviceAccount:
 service:
   type: ClusterIP
   port: 80
+
+livenessProbe:
+  enabled: false
+
+readinessProbe:
+  enabled: false
