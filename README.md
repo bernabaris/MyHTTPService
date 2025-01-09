@@ -153,6 +153,10 @@ docker compose -f ./docker/compose/docker-compose.yml down
 helm upgrade http-app ./chart --install --namespace default
 ```
 
+16. **Forward a local port to the ingress controller:**
+```sh
+kubectl port-forward --namespace=ingress-nginx service/ingress-nginx-controller 8080:80
+```
 ### Task 4: Debugging and Troubleshooting
 
 
@@ -173,3 +177,4 @@ helm upgrade http-app ./chart --install --namespace default
 - [https://helm.sh/docs/intro/install/]
 - [https://github.com/helm/examples.git]
 - [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/]
+- [https://kubernetes.github.io/ingress-nginx/deploy/]
