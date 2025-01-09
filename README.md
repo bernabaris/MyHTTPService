@@ -148,6 +148,10 @@ mv linux-amd64/helm /usr/local/bin/helm
 docker compose -f ./docker/compose/docker-compose.yml down
 ```
 
+15. **To deploy helm chart**
+```sh
+helm upgrade http-app ./chart --install --namespace default
+```
 
 ### Task 4: Debugging and Troubleshooting
 
