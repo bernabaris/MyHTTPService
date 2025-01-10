@@ -131,7 +131,7 @@ kubectl describe pod nginx
 kubectl taint nodes --all  node-role.kubernetes.io/control-plane-
 ```
 
-12. **Delete pod (unnecessary)**
+12. **Delete test pod**
 ```sh
 kubectl delete pod nginx
 ```
