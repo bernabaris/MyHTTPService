@@ -9,6 +9,9 @@ spec:
   ports:
     - port: {{ .Values.service.port }}
       targetPort: {{ .Values.service.targetPort }}
+      {{- if or (eq .Values.service.type "LoadBalancer") (eq .Values.service.type "NodePort") }}
+      nodePort: {{ .Values.service.nodePort }}
+      {{- end }}
       protocol: TCP
       name: http
   selector:
