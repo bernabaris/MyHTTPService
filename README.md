@@ -1,4 +1,4 @@
-# Infrastructure Deployment and Management Assignment
+# Comprehensive Guide to Infrastructure Deployment and Management
 
 This assignment evaluates skills in deploying and managing infrastructure, troubleshooting, and applying best practices in a Linux-based, containerized, high-availability environment.
 
