@@ -3,9 +3,9 @@ Description=Simple HTTP Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/user/PycharmProjects/MyHTTPService/myapp.py
+ExecStart=/usr/bin/python3 /home/user/PycharmProjects/MyHTTPService/server/myapp.py
 Restart=always
-WorkingDirectory=/home/user/PycharmProjects/MyHTTPService
+WorkingDirectory=/home/user/PycharmProjects/server/MyHTTPService
 User=user
 StandardOutput=append:/var/log/myapp.log
 StandardError=append:/var/log/myapp_error.log
