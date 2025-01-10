@@ -159,7 +159,8 @@ kubectl port-forward --namespace=ingress-nginx service/ingress-nginx-controller 
 ```
 ### Task 4: Debugging and Troubleshooting
 
-
+For detailed documentation on the troubleshooting process and fixes, refer to:  
+**[debugging-troubleshooting.pdf](./debugging-troubleshooting.pdf)**
 
 ### Task 5: Talos-Focused Configuration (Optional)
 
