@@ -8,7 +8,6 @@ This assignment evaluates skills in deploying and managing infrastructure, troub
 - [Task 2: Docker-Based Application Deployment](#task-2-docker-based-application-deployment)
 - [Task 3: Kubernetes Cluster Setup](#task-3-kubernetes-cluster-setup)
 - [Task 4: Debugging and Troubleshooting](#task-4-debugging-and-troubleshooting)
-- [Task 5: Talos-Focused Configuration (Optional)](#task-5-talos-focused-configuration-optional)
 
 ---
 
@@ -161,10 +160,6 @@ kubectl port-forward --namespace=ingress-nginx service/ingress-nginx-controller 
 
 For detailed documentation on the troubleshooting process and fixes, refer to:  
 **[debugging-troubleshooting.pdf](./debugging-troubleshooting.pdf)**
-
-### Task 5: Talos-Focused Configuration (Optional)
-
-
 
 
 ## Resources:
